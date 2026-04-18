@@ -3,6 +3,8 @@ from flask_cors import CORS
 from routes.auth import auth_bp
 from routes.whatsapp import whatsapp_bp
 from routes.makeTwin import make_twin_bp
+from routes.scoreAgent import score_bp
+from routes.InsightsAgent import insights_bp
 
 app = Flask(__name__)
 CORS(app)
@@ -11,6 +13,8 @@ CORS(app)
 app.register_blueprint(auth_bp)
 app.register_blueprint(whatsapp_bp, url_prefix="/whatsapp")
 app.register_blueprint(make_twin_bp)
+app.register_blueprint(score_bp)
+app.register_blueprint(insights_bp)
 
 @app.route("/", methods=["GET"])
 def home():
