@@ -13,10 +13,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _tab = 0;
 
-  final _tabs = const [
-    DashboardTab(),
-    JournalTab(),
-    ProfileTab(),
+  List<Widget> get _tabs => [
+    const DashboardTab(),
+    const JournalTab(),
+    const ProfileTab(),
   ];
 
   @override
