@@ -2,7 +2,7 @@
   <img src="readme/logo.png" alt="SenseAI Logo" width="600" />
 </p>
 
-# 🧬 Cognitive Health Twin
+# Cognitive Health Twin
 
 > **Shift healthcare from reactive treatment → proactive prevention** with a continuously evolving, AI-driven personal health companion.
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Traditional healthcare is **reactive** — people act only after symptoms appear. **Cognitive Health Twin** changes this paradigm by introducing a dynamic, evolving digital representation of an individual's health.
 
@@ -39,35 +39,35 @@ By combining:
 
 ---
 
-## 🧠 Key Capabilities
+## Key Capabilities
 
-### 1. 🧑‍💻 Digital Health Twin
+### 1. Digital Health Twin
 Maintains a continuously updated profile including physical, behavioral, and environmental data — your health, mirrored in real time.
 
-### 2. 📊 Risk Scoring Engine
+### 2. Risk Scoring Engine
 Computes health risk levels (e.g., diabetes, cardiovascular disease) using structured deterministic logic based on user inputs.
 
-### 3. 💡 AI Insights Engine
+### 3. AI Insights Engine
 Uses a large language model to convert raw health data into:
 - Easy-to-understand insights
 - Actionable, personalized recommendations
 
-### 4. 🔮 What-If Simulation Engine
+### 4. What-If Simulation Engine
 Allows users to explore future health scenarios such as:
 - *"What if I walk 8,000 steps daily?"*
 - *"What if I improve my sleep to 8 hours?"*
 
 Predicts the impact on health risks before you commit to a change.
 
-### 5. ⌚ Wearable Integration
+### 5. Wearable Integration
 Fetches real-time health data — steps, heart rate, sleep — from fitness platforms and syncs it with the user's health twin.
 
-### 6. 💬 WhatsApp Chatbot Interface
+### 6. WhatsApp Chatbot Interface
 Enables users to interact with the system conversationally — run simulations, get instant insights, and manage their health twin — all from WhatsApp.
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 The system follows a **modular, agent-based architecture**:
 
@@ -80,7 +80,7 @@ The system follows a **modular, agent-based architecture**:
 
 ---
 
-## 🤖 Agentic AI Approach
+## Agentic AI Approach
 
 Instead of relying on a single monolithic LLM call, the system is designed as a **tool-based agent architecture**:
 
@@ -101,7 +101,7 @@ This structure enables **scalable and interpretable intelligence**, and is desig
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -114,47 +114,47 @@ This structure enables **scalable and interpretable intelligence**, and is desig
 
 ---
 
-## 📡 API Reference
+## API Reference
 
-### 🔐 Auth APIs
+### Auth APIs
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/auth/register` | `POST` | Register a new user |
 | `/auth/login` | `POST` | Login and receive a secure token |
 
-### 👤 Twin APIs
+### Twin APIs
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/twin/create` | `POST` | Create a new health twin profile |
 | `/twin/update` | `PUT` | Update existing health profile |
 
-### 📊 Scoring API
+### Scoring API
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/scoring/generate` | `POST` | Generate health risk scores |
 
-### 💡 Insights API
+### Insights API
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/insights/get` | `GET` | Fetch AI-based recommendations |
 
-### 🔮 Simulation API
+### Simulation API
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/simulation/run` | `POST` | Run a what-if health scenario |
 
-### ⌚ Wearables API
+### Wearables API
 
 | Endpoint | Method | Description |
 |---|---|---|
 | `/wearables/sync` | `POST` | Sync data from fitness platforms |
 
-### 💬 WhatsApp Webhook
+### WhatsApp Webhook
 
 | Endpoint | Method | Description |
 |---|---|---|
@@ -162,7 +162,7 @@ This structure enables **scalable and interpretable intelligence**, and is desig
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 - Mobile number-based login
 - Secure token system (token passed in request headers)
@@ -170,7 +170,7 @@ This structure enables **scalable and interpretable intelligence**, and is desig
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -214,7 +214,7 @@ The API will be available at `http://localhost:5000`.
 
 ---
 
-## 💡 Unique Selling Points
+## Unique Selling Points
 
 - ✅ Combines **digital twin** concepts with **AI reasoning**
 - ✅ Goes beyond insights — **predicts future health outcomes**
@@ -226,14 +226,14 @@ The API will be available at `http://localhost:5000`.
 
 ---
 
-## ⚠️ Current Limitations
+## Current Limitations
 
 - Wearable data availability depends on device and app integration support
 - Agent orchestration is currently **rule-based** (not fully autonomous)
 
 ---
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 - [ ] Fully autonomous agent controller
 - [ ] Health Connect integration (post Google Fit deprecation)
@@ -244,7 +244,7 @@ The API will be available at `http://localhost:5000`.
 
 ---
 
-## 🎯 Vision
+## Vision
 
 > **Empowering individuals with a continuously evolving AI-driven health companion** — so that everyone can make informed, proactive decisions about their wellbeing before problems arise.
 
@@ -253,7 +253,7 @@ We believe the future of healthcare is not in hospitals after illness strikes, b
 ## Contact: 
 <p align="left">
   <a href="mailto:teaminspire2226@gmail.com">
-    <img src="readme_img/team.png" alt="Contact Team INSPIRE" width="200"/>
+    <img src="readme/team.png" alt="Contact Team INSPIRE" width="200"/>
   </a>
 </p>
 
